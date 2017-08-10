@@ -57,7 +57,7 @@ until num == displayed_items do
 
     puts "#{num + 1}: #{menu_items[num]}"
 
-    # see if menu_items includes pie
+    # see if menu_items includes pie (my favourite dessert)
     if menu_items[num].include?("pie")
       puts "Yay pie!"
     else
